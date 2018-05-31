@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/india"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+
+            android:text="India"
+
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/USA"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+            android:text="USA"
+
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Canada"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+            android:text="Canada"
+
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Japan"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="10dp"
+            android:text="Japan"
+
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
